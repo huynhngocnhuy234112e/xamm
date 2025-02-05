@@ -29,7 +29,7 @@ const config: Config = {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
         },
-        accent: { 
+        accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
@@ -49,7 +49,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [tailwindcssAnimate()],
+  plugins: [tailwindcssAnimate], // Không dùng dấu ngoặc ()
 };
 
 export default config;
